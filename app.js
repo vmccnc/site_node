@@ -168,6 +168,7 @@ app.get('/delete/:name', (req, res) => {
    }else{
       console.log("fruit is deleted!");
    }
+       res.redirect("/");
      });
     
 });
